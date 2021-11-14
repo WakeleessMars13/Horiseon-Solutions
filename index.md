@@ -1,37 +1,117 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horiseon Solutions</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>
+            <h1>Hori<span class="seo">seo</span>n</h1>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Hero-->
+    <div class="hero"></div>
+    
+    <!--content section-->
+    <section class="content">
+        <article id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="SEO notebook with various office supplies around it" class="float-left"/>
+            <div>
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, 
+                    or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your 
+                    visibility and find the right customers for your business.
+                </p>
+            </div>
+        </article>
 
-You can use the [editor on GitHub](https://github.com/WakeleessMars13/Horiseon-Solutions/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <article id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" alt="Someones hand shown working on a laptop while using phone and drinking coffee" class="float-right"/>
+            <div>
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. 
+                    Social media allows anyone with an internet connection to say whatever they want about your business. 
+                    Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </div>
+        </article>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <article id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" alt="a group of individals working together at a desk on all the aspects of social media marketing" class="float-left" />
+            <div>
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. 
+                    Social media marketing helps you determine which platforms are suited to your brand, 
+                    using analytics to find the right markets and increase your lead generation.
+                </p>
+            </div>
+        </article>
+    </section>
+    <!--right side content-->
+    <section class="benefits">
+        
+        <div class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" />
+            <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
+        </div>
 
-### Markdown
+        <div class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" />
+            <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <div class="benefit-cost">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" />
+            <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
+        </div>
+    </section>
+    <!--foooter-->
+    <footer class="footer">
+        <h2>Made with &#10084;&#65039 by Horiseon</h2>
 
-```markdown
-Syntax highlighted code block
+        <div>
+            <a href="/">Read our Privacy Policy</a>
+            <br />
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </div>
+        
+    </footer>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WakeleessMars13/Horiseon-Solutions/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
